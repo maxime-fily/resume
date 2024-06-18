@@ -1,376 +1,154 @@
-<div class="tabu">
-<h1 class="unnumbered" id="language-skills">Maxime Fily, Linguist and Engineer</h1>
-<img alt="profile pic" src="maxime_neige_Datsha_crop.jpg"  width="360" />
-<h1 class="unnumbered" id="language-skills">Language skills</h1>
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">French:</td>
-<td style="text-align: left;">Native speaker</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">English:</td>
-<td style="text-align: left;">C1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><span>↪</span> Bright test: 4.5/5
-(2007)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><span>↪</span> TOEFL test: 627/677
-(2005)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Mandarin:</td>
-<td style="text-align: left;">B2/C1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><span>↪</span> DCL, B2 level, (2017)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><span>↪</span> HSK level 5 : 214/300
-(2017)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><span>↪</span> HSK level 3 : 299/300
-(2015)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Spanish:</td>
-<td style="text-align: left;">Intermediate</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Na (Narua):</td>
-<td style="text-align: left;">Working knowledge</td>
-</tr>
-</tbody>
-</table>
-<p style="width: 500px;"><br />
-</p>
-<h1 class="unnumbered" id="computer-skills">Computer skills</h1>
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">General IT:</td>
-<td style="text-align: left;">GNU/Linux systems administration (Ubuntu,
-Mint)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">LaTeX, Libre Office, MS Office</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Programming:</td>
-<td style="text-align: left;">Linux/Unix : Bash, csh, Ksh</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">General: Python, C, xml, JuPyteR</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Speech processing: Praat</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">NLP: basic knowledge of Transformers-based
-neural networks</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Statistics: R</td>
-</tr>
-</tbody>
-</table>
-<p style="width: 500px;"><br />
-</p>
-<h1 class="unnumbered" id="soft-skills">Soft skills</h1>
-<ul>
-<li><p style="width: 500px;">Autonomy, adaptability</p></li>
-<li><p style="width: 500px;">Reliability, solicitude</p></li>
-<li><p style="width: 500px;">Teamwork, collaborative work</p></li>
-<li><p style="width: 500px;">Oral and written communication</p></li>
-</ul>
-<h1 class="unnumbered" id="education">Education</h1>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018 - 2022:</span></p>
-<p style="width: 500px;">PhD in Phonetics, Phonology and Speech Sciences, Université Paris III
-Sorbonne Nouvelle (defended on Dec. 2, 2022).<br />
-</p>
-</div>
-<p style="width: 500px;"><span>↪</span> <u>PhD Dissertation</u>:</p>
-<div class="refsection">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxime Fily - CV</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            margin: 1.5cm;
+            line-height: 1.6;
+        }
+        .header, .subhead, .chapter-title {
+            color: #0c619e;
+        }
+        .header {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .subhead {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .chapter-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 0.8em;
+            margin-bottom: 0.4em;
+        }
+        .label {
+            font-weight: bold;
+        }
+        .employment-entry, .education-entry, .language-entry, .computer-skill-entry, .collaboration-entry, .achievement-entry, .grant-entry, .publication-entry, .documentation-entry, .skill-entry, .ongoing-research-entry {
+            margin-bottom: 1em;
+        }
+        .compactlabel {
+            list-style: none;
+            padding-left: 0;
+        }
+        .compactlabel li {
+            margin-bottom: 0.5em;
+        }
+        .compactlabel .label {
+            display: inline-block;
+            width: 150px;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        .left {
+            text-align: left;
+        }
+        .image {
+            float: left;
+            margin-right: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Maxime Fily</div>
+    <div class="subhead">Linguist and Engineer/Physicist</div>
+    <img src="/home/mfily/Documents/ancien_espace/personal_files/perso/max_casquette_pour_CV_small.png" alt="Maxime Fily" class="image" width="100">
 
-</div>
-<p style="width: 500px;"><u>Abstract</u>: This thesis constitutes a description and analysis
-of the dialect of the Na (Mosuo) language (Sino-Tibetan/Trans-Himalayan
-family) spoken in the village of Shekua. After a brief presentation of
-the segmental phonology (consonants and vowels), the main part of the
-analysis focuses on the tonal system. Based on previous work and
-first-hand immersion fieldwork, it is confirmed that the system is based
-on two tonal levels (High and Low). The system is explored in a
-systematic manner, starting out from the tones of nouns and progressing
-to those of compound nouns, verbs, and various morphosyntactic
-constructions. The analysis of the tonal system brings out categories
-that can only be revealed by combining information from several
-contexts. Seven categories are found for monosyllabic nouns, and no less
-than twelve for (monosyllabic) verbs. A contrastive use of the HL
-contour, not found among previously documented Na dialects, makes
-functional sense inside a two-level system, as it puts the available
-phonological units to maximum use. Three-level systems (contrasting H,
-M, and L) such as that of the village of Alawa (Yongning) allow for a
-wider combinatorial range, and hence are under less pressure to exploit
-every nook and cranny of this combinatorial range. This monograph on a
-Na tonal system, combined with a fully open access corpus, adds to the
-literature on a language whose traditional chain of transmission is
-undoubtedly threatened.<br />
-</p>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018 - 2022:</span></p>
-<p style="width: 500px;">Master’s degree in Linguistics, with a specialization in the field of
-experimental phonetics and phonology, Université Grenoble Alpes (<span
-class="smallcaps">uga</span>), “mention Très Bien”.<br />
-</p>
-</div>
-<p style="width: 500px;"><span>↪</span> <u>Master’s thesis</u>:</p>
-<div class="refsection">
+    <div class="chapter-title">Employment history</div>
+    <ul class="compactlabel">
+        <li class="employment-entry"><span class="label">Since 2023:</span> Research fellow at <span class="bold">CNRS</span>, <span class="bold">LLF</span>, Laboratoire de Linguistique Formelle and <span class="bold">Lacito</span>, Langues et Civilisations à Tradition Orale.</li>
+        <li class="employment-entry"><span class="label">2023:</span> Supervision of BA student Berthilde Biard (Université Sorbonne Nouvelle). <i>Data extraction and analysis for the construction of verbal and nominal paradigms in Naish languages</i> (3 months).</li>
+        <li class="employment-entry"><span class="label">2018 - 2022:</span> Doctoral student at <span class="bold">Lacito</span> (Villejuif) and <span class="bold">Gipsa-lab</span> (Grenoble Image Parole Signal Automatique).</li>
+        <li class="employment-entry"><span class="label">2020 - 2021:</span> Mandarin teacher, private classes, 2h/week.</li>
+        <li class="employment-entry"><span class="label">2018 - 2019:</span> Temporary lecturer for the class "Introduction to linguistics and language families", Université Grenoble Alpes (24 hours).</li>
+        <li class="employment-entry"><span class="label">2017 - 2018:</span> Research Intern at <span class="bold">Gipsa-lab</span> in the frame of a Linguistics MA. <i>Oral-nasal signals analysis for the acoustic study of the oral and nasal cues of nasalised sounds in French and Taiwan Mandarin</i>.</li>
+        <li class="employment-entry"><span class="label">2014 - 2017:</span> Confirmed Engineer at <span class="bold">Areva NP</span>. Neutronic design of nuclear fuel assemblies, Lyon, France.</li>
+        <li class="employment-entry"><span class="label">2011 - 2014:</span> Confirmed Engineer at <span class="bold">Wecan</span>, an <span class="bold">Areva-CGN</span> (China General Nuclear) joint-venture specializing in nuclear design and safety, Shenzhen, China.</li>
+        <li class="employment-entry"><span class="label">2007 - 2011:</span> Engineer at <span class="bold">Areva NP</span>, in nuclear safety analyses, Paris, France.</li>
+    </ul>
 
-</div>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018 - 2022:</span></p>
-<p style="width: 500px;">Level 3 University degree (“DU niveau 3”) in Chinese language and
-culture, Université Lyon 3, “mention Très Bien”.<br />
-</p>
-<p style="width: 500px;">Master of Engineering, <span class="smallcaps">enspg</span> (“École
-Nationale Supérieure de Physique de Grenoble”, renamed PHELMA in 2008),
-member of Grenoble INP group (Grenoble Institute of Engineering, a
-public sector technology university), “mention Assez Bien”.<br />
-</p>
-</div>
-<h1 class="unnumbered" id="professional-experiences">Professional
-experiences</h1>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018 - 2022:</span></p>
-<p style="width: 500px;">Post-doc at <span class="smallcaps">cnrs</span>, <span
-class="smallcaps">llf</span>, Laboratoire de Linguistique Formelle and
-<span class="smallcaps">Lacito</span>, Langues et Civilisations à
-Tradition Orale.<br />
-</p>
-<p style="width: 500px;">Supervisor for the internship of Université Sorbonne Nouvelle BA
-student Berthilde Biard, on the subject of data extraction and analysis
-for the buildup of verbal and nominal paradigms in Na languages
-(3months).<br />
-</p>
-<p style="width: 500px;">Doctoral student at <span class="smallcaps">lacito</span> (Villejuif)
-and <span class="smallcaps">Gipsa-lab</span> (Grenoble).<br />
-</p>
-<p style="width: 500px;">Mandarin teacher, private classes, 2h/week.<br />
-</p>
-<p style="width: 500px;">Temporary lecturer for the class “Introduction to linguistics and
-language families”, <span class="smallcaps">uga</span> (12 hours).<br />
-</p>
-<p style="width: 500px;">Research Internship at <span class="smallcaps">Gipsa-lab</span> in
-the frame of my Master 2 in Linguistics. Design of an oral-nasal signals
-separate recording plate for the acoustic study of the oral and nasal
-cues of nasalised sounds in French and Taiwan Mandarin.<br />
-</p>
-<p style="width: 500px;">Confirmed Engineer at <span class="smallcaps">Areva NP</span>.
-Neutronic design of nuclear fuel assemblies, Lyon, France.<br />
-</p>
-<p style="width: 500px;">Confirmed Engineer at <span class="smallcaps">Wecan</span>, an <span
-class="smallcaps">Areva-CGN</span> (<em>China General Nuclear</em>)
-joint-venture specializing in nuclear design and safety, Shenzhen,
-China.<br />
-</p>
-<p style="width: 500px;">Engineer (“Ingénieur d’étude”) at <span class="smallcaps">Areva
-NP</span>, in nuclear safety analyses, Paris, France.<br />
-</p>
-</div>
-<h1 class="unnumbered" id="linguistic-fieldwork">Linguistic
-fieldwork</h1>
-<p style="width: 500px;">Since the beginning of my work as a field linguist, I have focused on
-the Shekua variety of the Na language, also known as Lataddi Narua.
-Shekua is a small village situated in proximity to the Grass Sea, and
-the speakers in this village use a variety that is closely related to
-Yongning Narua, whose tone system has been described in Michaud (2017).
-The detail of my fieldwork experience is outlined below:</p>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018 - 2022:</span></p>
-<p style="width: 500px;">Interviews of Shekua Na speakers : narratives, phonological
-confirmation paradigms, dialogues (Yunnan, 2 months).</p>
-<p style="width: 500px;">Interviews of Shekua Na speakers : phonetics and phonology,
-narratives (Sichuan and Yunnan, 3 months).</p>
-</div>
-<h1 class="unnumbered" id="foreign-collaborations">Foreign
-collaborations</h1>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018:</span></p>
-<p style="width: 500px;">I undertook a research trip to Kunming “Yunnan Minzu University”,
-organized at the invitation of M. He Likun and M. Liu Jinrong (School of
-Ethnic Cultures). During this visit I attended seminars that covered a
-range of descriptive works on Yunnan languages. Additionnally, I
-presented on the phonological system of Shekua Na.</p>
-</div>
-<h1 class="unnumbered" id="technical-achievements">Technical
-achievements</h1>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018:</span></p>
-<p style="width: 500px;">Creation of a fully customizable keyboard for Linux users interested
-in writing with the International Phonetic Alphabet. See <a
-href="https://lacito.hypotheses.org/3086"
-class="uri">https://lacito.hypotheses.org/3086</a></p>
-<p style="width: 500px;">Realization of a solution to allow the conversion of praat textgrids
-to <span class="smallcaps">xml</span> format to accelerate Pangloss
-deposits. See <a href="https://github.com/maxime-fily/TXTGRD2XML"
-class="uri">https://github.com/maxime-fily/TXTGRD2XML</a></p>
-<p style="width: 500px;">Design of the acquisition module for a separate recording of oral and
-nasal tract output, by modifying the Glottal Enterprise nasalance
-plate.</p>
-</div>
-<h1 class="unnumbered" id="grants-and-projects">Grants and projects</h1>
-<div class="compactlabel">
-<p style="width: 500px;"><span>Since 2018:</span></p>
-<p style="width: 500px;">I obtained a grant to perform part of my research abroad, via the
-<span class="smallcaps">uga idex</span> International Mobility Program.
-The funding allowed a field trip and a research visit to Yunnan and
-Sichuan.</p>
-<p style="width: 500px;">Participant in the Labex-EFL program, within the “Typology and
-dynamics of linguistic systems” strand. Since 2023, I also participate
-in the “Computational Linguistics” strand. The goal is to address
-computational linguistics through a cross-disciplinary approach,
-enabling the deployment of NLP methods across the various linguistic
-strands of the Labex.</p>
-</div>
-<h1 class="unnumbered"
-id="publications-in-conferences-with-proceedings">Publications</h1>
+    <div class="chapter-title">University Education</div>
+    <ul class="compactlabel">
+        <li class="education-entry"><span class="label">2018 - 2022:</span> PhD in Phonetics, Phonology and Speech Sciences, Université Paris III Sorbonne Nouvelle.</li>
+        <li class="education-entry"><span class="label">2017 - 2018:</span> Master's degree in Linguistics, with a specialization in the field of experimental phonetics and phonology, Université Grenoble Alpes, obtained with honors.</li>
+        <li class="education-entry"><span class="label">2014 - 2015:</span> Level 3 University degree (DU niveau 3) in Chinese language and culture, Université Lyon 3, obtained with honors.</li>
+        <li class="education-entry"><span class="label">2001 - 2007:</span> Master of Engineering at École Nationale Supérieure de Physique de Grenoble (PHELMA, Institut National Polytechnique de Grenoble).</li>
+    </ul>
 
-<div class="refsection">
-<p style="width: 500px;"> See my Google scholar profile : </p>
-<a href="https://scholar.google.fr/citations?user=XYvTKbIAAAAJ&hl=fr&oi=ao">Maxime Fily</a>
-</div>
-<h1 class="unnumbered" id="ongoing-research-activity">Ongoing research
-activity</h1>
-<h2 class="unnumbered" id="comparative-work-on-na-dialects">Comparative
-work on Na dialects</h2>
-<p style="width: 500px;">I am currently in the field, collecting data to finalize a study on
-tonal correspondences between Yongning Na and Shekua/Lataddi Na. The
-study focuses on noun and verb categories in the two dialects. The main
-difference between these two dialects lies in their tone systems:
-Yongning has a three-level tone system, while Shekua/Lataddi has a
-two-level tone system. Lexically, the two dialects are very close, and
-moreover, they are mutually intelligible. This pushes for a tonal
-comparison: our approach aims to identify precise tonal correspondences
-between a two-level system and a three-level system, to potentially shed
-light on rearrangement mechanisms. A preliminary study covered 52 verbs
-and 51 nouns, and the objective is to expand this dataset to 100 verbs
-and nouns for a comprehensive study. The challenge in this task arises
-from the <em>morpho-tonological complexity</em> of tonal categories in
-Na, which can only be accessed in combination with other morphemes. For
-instance, verbs are examined in combination with TAME particles, nouns
-within Object-Verb structures and compound nouns.</p>
-<p style="width: 500px;">For this study, we utilize carefully curated data and rely on
-statistical tools such as Sankey Diagrams and Agglomerative Hierarchical
-Clustering. These tools offer evidence-based and interpretable graphs,
-contributing to opening discussions on categories. Additionally, the
-study draws on first-hand field data, all of which is accessible online
-via the Pangloss website.</p>
-<p style="width: 500px;">The results of the study mark a first step towards reconstructing the
-diachronic processes that led to contemporary Na tone systems.
-Simultaneously, a search for cognates is underway between Naish
-languages and the conservative languages of the Trans-Himalayan
-(Sino-Tibetan) family, particularly Gyalrong languages. This research is
-conducted with guidance from Alexis Michaud (<span
-class="smallcaps">Lacito</span>) and advice from Guillaume Jacques
-(CRLAO). Furthermore, we closely follow the works of Li Zihe (Peking
-University), who has undertaken the task of assembling that cognate list
-in Naish, Gyalrong, Old Burmese, Old Tibetan and Written Tibetan
-languages.</p>
-<h2 class="unnumbered" id="nlp-for-underdocumented-languages">NLP for
-un(der)documented languages</h2>
-<p style="width: 500px;">My post-doctoral activities over the past year (and until August
-2024) focus on evaluating the deployment cost of NLP methods for
-un(der)documented languages. Our work is grounded in the understanding
-that the rapid disappearance of rare and undocumented languages poses a
-monumental challenge for linguists involved in documenting these
-languages. Language models can assist linguists, but since they are
-pre-trained on a closed list of resource-rich languages, they need to be
-<em>fine-tuned</em> to be able to perform NLP tasks on a language not
-seen in pre-training. Before I started this position, a successful
-fine-tuning experiment was conducted on Yongning Na (glottocode:
-yong1234) and Japhug (glottocode: japh1234), with Word-Error Rates well
-within acceptable values for an Automatic Speech Recognition (ASR) task
-(Guillaume, Wisniewski, Macaire, et al. 2022a). However, the study
-revealed that the quality and diversity of the fine-tuning data impacted
-the system’s performance. For instance, a system fine-tuned on
-elicitations exhibited poor performance on texts, and vice versa.</p>
-<p style="width: 500px;">To better design minimal sets of audio data for input into a language
-model, specifically for ASR tasks – such as phonetic and phonological
-transcriptions in our case –, my assignment consisted in developing
-distance measurement methods in the vectorial representation space. This
-allowed us to assess similarities between recordings. With the
-assistance of the developed toolkit, our aim is to predict the
-performance of a fine-tuning task based on the characteristics of the
-input and tested materials.</p>
-<p style="width: 500px;">This research is highly interdisciplinary, engaging both NLP
-scientists seeking a better understanding of language models based on
-neural networks and linguists who stand to benefit from language models
-better tailored to their needs. Neural networks are producing
-increasingly powerful models for academia, but the process needs to be
-better understood, especially by the linguists, who have the expertise
-to assess the accuracy of the language models produced recently. The
-community can benefit from these models by accelerating time-consuming
-stages of work, such as transcription. Thus, it seemed essential to
-enter the NLP arena as a linguist. Guillaume Wisniewski (LLF) is the
-principal investigator for the project, with a dedicated focus on the
-rare languages of Yunnan and Sichuan, leaving ample room for future
-collaborations within my area of linguistic interest.</p>
-<p style="width: 500px;"><br />
-</p>
-<h1 class="unnumbered" id="academic-service">Academic service</h1>
-<h2 class="unnumbered" id="article-reviews">Article reviews</h2>
-<p style="width: 500px;">Peer-reviews in the field of phonetics and phonology, for the
-following conferences: Interspeech, “Journées d’Étude de la Parole”.</p>
-<h2 class="unnumbered" id="collective-duties">Collective duties</h2>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018 - 2022:</span></p>
-<p style="width: 500px;">Representative for the doctoral students at <span
-class="smallcaps">lacito</span>.</p>
-<p style="width: 500px;">Representative for the doctoral students at <span
-class="smallcaps">Gipsa-lab</span> and <span
-class="smallcaps">uga</span>.</p>
-<p style="width: 500px;">Representative for the doctoral students at <span
-class="smallcaps">Grenoble-INP</span> <span
-class="smallcaps">clhsct</span>.</p>
-<p style="width: 500px;">Workplace First-Aid Rescuer (retraining planned in 2024).</p>
-</div>
-<p style="width: 500px;"><br />
-</p>
-<h1 class="unnumbered" id="learned-societies">Learned societies</h1>
-<div class="compactlabel">
-<p style="width: 500px;"><span>2018 - 2022:</span></p>
-<p style="width: 500px;">Member of the “Association Française de Communication Parlée”.</p>
-<p style="width: 500px;">Member of the “Société de Linguistique de Paris”.</p>
-<p style="width: 500px;">Member of the International Phonetic Association.</p>
-</div>
-<h1 class="unnumbered" id="references">References</h1>
-<div class="compactlabel">
-<p style="width: 500px;"><span>Linguistics </span></p>
-<p style="width: 500px;">M. Alexis Michaud<br />
-Research Director, <span class="smallcaps">cnrs</span><br />
-<span class="smallcaps">Lacito</span>, 7 rue G. Môquet, Villejuif<br />
-Phone: (+33) (0)1 49 58 37 78<br />
-E-mail: alexis.michaud@cnrs.fr<br />
-</p>
-<p style="width: 500px;">M. Guillaume Wisniewski<br />
-Assistant Professor, Université Paris-Cité<br />
-LLF, 8 rue A. Einstein, Paris<br />
-Phone: (+33) (0)1 57 27 57 64<br />
-E-mail: guillaume.wisniewski@u-paris.fr<br />
-</p>
-</div>
-</div>
+    <div class="chapter-title">Languages spoken</div>
+    <ul class="compactlabel">
+        <li class="language-entry"><span class="label">English:</span> C1 (TOEFL test: 627/677)</li>
+        <li class="language-entry"><span class="label">Mandarin:</span> B2/C1 (HSK level 5: 214/300, 2017; HSK level 3: 299/300, 2015)</li>
+        <li class="language-entry"><span class="label">Spanish:</span> Intermediate</li>
+        <li class="language-entry"><span class="label">Na (Narua):</span> Working knowledge</li>
+        <li class="language-entry"><span class="label">Russian:</span> Notions</li>
+    </ul>
+
+    <div class="chapter-title">Computer skills</div>
+    <ul class="compactlabel">
+        <li class="computer-skill-entry"><span class="label">General IT:</span> GNU/Linux systems administration (Ubuntu, Mint), Knowledge in GPU installations, Pytorch, LaTeX, Libre Office, MS Office</li>
+        <li class="computer-skill-entry"><span class="label">Programming:</span> Linux/Unix: Bash, csh, Ksh, General: Python, C, XML, Jupyter, Speech processing: Praat, NLP: Transformers-based neural networks (Wav2Vec2.0, XLSR), Statistics: R, seaborn</li>
+    </ul>
+
+    <div class="chapter-title">Foreign collaborations</div>
+    <ul class="compactlabel">
+        <li class="collaboration-entry"><span class="label">2019:</span> Research trip to Kunming Yunnan Minzu University, organized at the invitation of M. He Likun and M. Liu Jinrong (School of Ethnic Cultures). During this visit I attended seminars that covered a range of descriptive works on Yunnan languages. Additionally, I gave a seminar on the phonological system of Shekua Na.</li>
+    </ul>
+
+    <div class="chapter-title">Technical achievements</div>
+    <ul class="compactlabel">
+        <li class="achievement-entry"><span class="label">2021:</span> Creation of a fully customizable keyboard for Linux users interested in writing with the International Phonetic Alphabet. See <a href="https://lacito.hypotheses.org/3086">link</a></li>
+        <li class="achievement-entry"><span class="label">2020:</span> Realization of a solution to allow the conversion of Praat textgrids to XML format to accelerate Pangloss deposits. See <a href="https://github.com/maxime-fily/TXTGRD2XML">GitHub</a></li>
+        <li class="achievement-entry"><span class="label">2018:</span> Design of the acquisition module for a separate recording of oral and nasal tract output, by modifying the Glottal Enterprise nasalance plate.</li>
+    </ul>
+
+    <div class="chapter-title">Grants and projects</div>
+    <ul class="compactlabel">
+        <li class="grant-entry"><span class="label">2019:</span> International mobility grant (3,750€), obtained from the <span class="bold">UGA IDEX</span> International Mobility Commission.</li>
+    </ul>
+
+    <div class="chapter-title">Publications</div>
+    <ul class="compactlabel">
+        <li class="publication-entry"><span class="label">To appear:</span> Nasalization in Shekua Na: between phonetics and phonology. In <span class="italic">M. Brunelle &amp; R. Kirby (eds.), The Phonetics-Phonology Interface.</span> Oxford University Press.</li>
+        <li class="publication-entry"><span class="label">2021:</span> The prenasalized stops in Na (Naxi): a phonetic account. <span class="italic">Zhongguo Yuwen</span> (Studies of the Chinese Language), 387: 55-66.</li>
+        <li class="publication-entry"><span class="label">2020:</span> Les consonnes prénasalisées du na (naxi): étude phonétique. <span class="italic">Cahiers de linguistique Asie Orientale</span> 49(1): 43-65.</li>
+    </ul>
+
+    <div class="chapter-title">Documentation work</div>
+    <ul class="compactlabel">
+        <li class="documentation-entry"><span class="label">2018:</span> Fieldwork in the field of Shekua Na (Shuiluo dialect) (Sichuan, China) (5 weeks). Audio recordings and video recording of Na words (with AVT camera) and daily conversations.</li>
+    </ul>
+
+    <div class="chapter-title">Miscellaneous skills</div>
+    <ul class="compactlabel">
+        <li class="skill-entry"><span class="label">2000:</span> BAFA (certificate of fitness for animation functions)</li>
+    </ul>
+
+    <div class="chapter-title">Ongoing research</div>
+    <ul class="compactlabel">
+        <li class="ongoing-research-entry"><span class="label">Since 2021:</span> Phonetic, phonological and morphophonological studies of the Bai and Na languages.
+        <ul>
+            <li>Shekua Na: Acoustic study of the prenasalized and nasal consonants. In collaboration with Alexis Michaud (CNRS, Lacito) and Jacques P. Mo (Guangdong University of Foreign Studies).</li>
+            <li>Jianchuan Bai: Acoustic study of tones. In collaboration with Xiaomei Pan (PhD student at Sorbonne Nouvelle) and Tao Li (PhD student at UBC, University of British Columbia).</li>
+        </ul>
+        </li>
+    </ul>
+</body>
+</html>
