@@ -1,0 +1,117 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 2cm;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #004466;
+    margin-bottom: 0.3em;
+}
+
+.subhead {
+    text-align: center;
+    font-size: 1.7em;
+    color: #006699;
+    font-weight: normal;
+    margin-bottom: 1.5em;
+}
+
+/* Profile Image Styling */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+}
+
+/* Chapter and Section Titles */
+.chapter-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #004466;
+    border-bottom: 2px solid #006699;
+    margin-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.section-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+}
+
+/* Labels and Entries */
+.label {
+    font-weight: bold;
+    color: #004466;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.8em;
+}
+
+.compactlabel .label {
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Text Alignment and Positioning */
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+/* Enhancing Readability */
+.employment-entry,
+.education-entry,
+.language-entry,
+.computer-skill-entry,
+.collaboration-entry,
+.achievement-entry,
+.grant-entry,
+.publication-entry,
+.documentation-entry,
+.skill-entry,
+.ongoing-research-entry {
+    margin-bottom: 1.2em;
+    padding-left: 0.5em;
+    line-height: 1.5;
+}
+
+/* Links */
+a {
+    color: #006699;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
